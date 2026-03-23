@@ -1,0 +1,31 @@
+kind = "slides"
+previewPath = "/feedback-prd/"
+title = "Customer Feedback Intelligence Platform PRD"
+version = "1.0.0"
+id = "artifacts/feedback-prd"
+router = "path"
+
+[[integratedSkills]]
+name = "slides"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/feedback-prd/" ]
+localPort = 24543
+
+[services.development]
+run = "pnpm --filter @workspace/feedback-prd run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/feedback-prd", "run", "build" ]
+publicDir = "artifacts/feedback-prd/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24543"
+BASE_PATH = "/feedback-prd/"

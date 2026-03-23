@@ -1,0 +1,18 @@
+packages:
+  "recharts": "For rendering advanced dashboard charts (bar, pie, trends)"
+  "framer-motion": "For smooth page transitions, layout animations, and premium micro-interactions"
+  "date-fns": "For formatting timestamps"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes safely"
+
+images:
+  - path: "artifacts/fraud-detection/public/images/ai-glow.png"
+    description: "Abstract dark enterprise technology background with subtle deep blue and electric teal glowing mesh, geometric data nodes, premium minimal aesthetic"
+    aspect_ratio: "16:9"
+  - path: "artifacts/fraud-detection/public/images/logo-icon.png"
+    description: "Minimal geometric logo icon, abstract shape representing data aggregation, electric blue on transparent background, sleek tech startup style"
+    aspect_ratio: "1:1"
+
+notes:
+  - Hooks are imported from @workspace/api-client-react
+  - Strict dark mode professional design
