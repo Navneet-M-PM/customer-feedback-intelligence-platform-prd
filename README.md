@@ -24,9 +24,7 @@ This repository contains three portfolio pieces built as a single cohesive proje
 
 | Artifact | Description | Live |
 |---|---|---|
-| **PM Case Study** | 19-chapter interactive document covering the full PM lifecycle — from problem identification to system architecture, A/B testing, user stories, and roadmap | [View →](https://customer-feedback-intelligence-platform-prd.replit.app/pm-case-study/) |
-| **CFIP Web App** | Fully functional product: dashboard, feedback inbox, AI themes, alerts, sources, and PM story | [View →](https://customer-feedback-intelligence-platform-prd.replit.app/) |
-| **PRD Slide Deck** | 15-slide professional PRD deck with dark theme, covering executive summary through roadmap | [View →](https://customer-feedback-intelligence-platform-prd.replit.app/feedback-prd/) |
+| **PM Case Study** | 19-chapter interactive document covering the full PM lifecycle — from problem identification to system architecture, A/B testing, user stories, and roadmap | [View →](https://portfolio-showcase-ai.replit.app/pm-case-study/) |
 
 ---
 
